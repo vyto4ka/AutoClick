@@ -1,0 +1,2 @@
+# AutoClick
+Autoclick for AHK
