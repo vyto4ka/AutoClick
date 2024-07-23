@@ -35,7 +35,8 @@ XButton2::
 if (scriptActive) {
     while GetKeyState("XButton2", "P") {
         Click
-        Sleep 100
+        Random, randSleep, 95, 105 ; Рандомизация кликов на ±5 мс
+        Sleep randSleep
     }
 }
 Return
