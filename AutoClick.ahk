@@ -38,6 +38,8 @@ if (scriptActive) {
         Random, randSleep, 95, 105 ; Рандомизация кликов на ±5 мс
         Sleep randSleep
     }
+} else {
+    Send {XButton2}
 }
 Return
 
